@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(146, 184, 185);
+}
+
+#mainHeading {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 64px;
+}
+
+#name {
+    font-size: 300px;
+    animation: colorChange 2s infinite alternate-reverse;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #648b71;
+    }
+  
+    50% {
+        color: #dbabe7;
+    }
+
+    100% {
+        color: coral;
+    }
+}
+
+#firstButton {
+    background-color: rgb(174, 0, 255);
+}
