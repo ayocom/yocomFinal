@@ -61,6 +61,11 @@
     background-color: rgb(98, 152, 214);
 }
 
+.mainButton:hover {
+    background-color: rgb(157, 229, 202);
+    color: cadetblue;
+}
+
 .block {
     display: block;
     width: 100%;
@@ -70,7 +75,7 @@
     text-align: center;
 }
 
-.mainButton:hover {
-    background-color: rgb(157, 229, 202);
-    color: cadetblue;
+.buttonStyle {
+    background-color: rgb(178, 199, 224);
+    font-family: 'Oswald', sans-serif;
 }
