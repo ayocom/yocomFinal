@@ -5,12 +5,13 @@
 }
 
 .body2 {
-    background-color: #649F5E;
+    background-color: #558160;
 }
 
 .topTitle {
     text-align: center;
     font-size: 75px;
+    font-family: 'Tapestry', cursive;
 }
 
 h1:hover {
@@ -62,7 +63,7 @@ h1:hover {
 }
 
 .mainButton {
-    background-color: rgb(98, 152, 214);
+    background-color: rgb(176, 209, 181);
 }
 
 .mainButton:hover {
@@ -86,5 +87,43 @@ h1:hover {
 
 label {
     font-weight: 700;
+    font-size: 20px;
+}
+
+.myBox {
+    border: none;
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    font-family: 'Merriweather', serif;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #F4E058 ;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+      background: #ABDCB1;
+}
+
+#pretty3 {
+    background-color: #95a39b;
+}
+
+#button1 {
+    background-color: #F4E058;
+}
+
+p {
+    font-family: 'Merriweather', serif;
     font-size: 20px;
 }
