@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .body1 {
     background: linear-gradient(90deg, #C39BD3, #DAF7A6 , #F2B1AB , #ABD4F2 );
     background-size: 600% 600%;
@@ -13,8 +17,6 @@
     font-size: 75px;
     font-family: 'Tapestry', cursive;
 }
-
-
 
 h1:hover {
     text-decoration: underline;
